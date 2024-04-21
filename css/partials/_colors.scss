@@ -1,0 +1,50 @@
+// Colors of project
+
+// Color Primary
+$purple: #82269e;
+$purple-light: #9c4fb4;
+$purple-dark: #701f88;
+
+// Secondary color
+
+$purple-2: #a950c4;
+$purple-2-light: #bb71d2;
+$purple-2-dark: #9142a8;
+
+// Auxiliary colors
+
+$red: #eb3d3d;
+$red-light: #f05454;
+$red-dark: #d03333;
+$green: #32d957;
+$green-light: #50e170;
+$green-dark: #28bb49;
+$yellow: #ffce52;
+$yellow-light: #ffd76b;
+$yellow-dark: #d9b043;
+
+// White colors
+$white: #f3f0f5;
+$white-light: #fbf8fc;
+$white-dark: #edeaef;
+
+// Black colors
+$black: #232224;
+$black-light: #353436;
+$black-dark: #161617;
+
+// Gray colors
+$gray-1: #454446;
+$gray-2: #555456;
+$gray-3: #666566;
+$gray-4: #767576;
+$gray-5: #868587;
+$gray-6: #969597;
+$gray-7: #a6a6a7;
+
+// Gradient colors
+$gradient-1: #a950c4 100%, #82269e 100%;
+
+.color-white {
+  color: $white-light;
+}

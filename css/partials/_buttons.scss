@@ -1,0 +1,84 @@
+a {
+  @include typeface-2(p2, desktop);
+  text-decoration: none;
+  color: $black;
+
+  transition: 0.5s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn {
+  background: linear-gradient(220.94deg, $purple-2 14.43%, $purple 85.28%);
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  transition: 0.3s ease;
+  color: $white-light;
+
+  box-shadow: 0px 17px 17px rgba(169, 80, 196, 0.13),
+    0px 5.125px 5.125px rgba(169, 80, 196, 0.0847066),
+    0px 2.12866px 2.12866px 0px rgba(169, 80, 196, 0.065),
+    0px 0.769896px 0.769896px 0px rgba(169, 80, 196, 0.0452935);
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 17px 31px rgba(169, 80, 196, 0.27),
+      0px 5.125px 9.34559px rgba(169, 80, 196, 0.175929),
+      0px 2.12866px 3.88168px 0px rgba(169, 80, 196, 0.135),
+      0px 0.769896px 1.40393px 0px rgba(169, 80, 196, 0.0944071);
+  }
+}
+
+.link {
+  display: inline-block;
+
+  color: $purple;
+  background-image: url(../../svg/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  font-size: 18px;
+
+  padding: 1rem 1rem 1rem 2.5rem;
+
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+
+    top: 75%;
+    left: 56px;
+
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+
+    transition: 0.3s linear;
+
+    background-color: $purple-2;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    padding-left: 64px;
+    background-position: 8px 50%;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.button-app {
+  transition: .5s ease;
+
+  &:hover {
+    filter: drop-shadow(0px 51px 80px rgba(169, 80, 196, 0.08))
+      drop-shadow(0px 15.275px 24.1177px rgba(169, 80, 196, 0.0521271))
+      drop-shadow(0px 6.28599px 10.0172px rgba(169, 80, 196, 0.4))
+      drop-shadow(0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729));
+  }
+}
