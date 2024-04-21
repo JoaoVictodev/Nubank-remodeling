@@ -39,12 +39,12 @@ $height-card: 0.64 * $width-card;
 @keyframes change-bg-card {
   0%,
   52% {
-    background-image: url("../../svg/nubank.svg");
+    background-image: url("../svg/nubank.svg");
     background-size: cover;
   }
   53%,
   100% {
-    background-image: url("../../svg/nubank-verse.svg");
+    background-image: url("../svg/nubank-verse.svg");
     background-size: cover;
   }
 }

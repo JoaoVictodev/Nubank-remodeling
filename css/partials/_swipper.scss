@@ -56,7 +56,7 @@
   height: 36px;
 
   cursor: pointer;
-  background-image: url(../../svg/icon-arrow.svg);
+  background-image: url(../svg/icon-arrow.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -70,7 +70,7 @@
   height: 36px;
 
   cursor: pointer;
-  background-image: url(../../svg/icon-arrow.svg);
+  background-image: url(../svg/icon-arrow.svg);
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(-180deg);
@@ -84,33 +84,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .photo-1 {
-  background-image: url(../../img/people1.png);
-
-
-  
+  background-image: url(../img/people1.png);
 }
 
 .photo-2 {
-  background-image: url(../../img/people2.png);
+  background-image: url(../img/people2.png);
 }
 
 .photo-3 {
-  background-image: url(../../img/people3.png);
+  background-image: url(../img/people3.png);
 }
 
 .photo-4 {
-  background-image: url(../../img/people4.png);
+  background-image: url(../img/people4.png);
 }
 
 .photo-5 {
-  background-image: url(../../img/people5.png);
+  background-image: url(../img/people5.png);
 }
 
 .photo-1 {
-  background-color: palevioletred;
-  background-image: url(../../img/people1.png);
+  background-image: url(../img/people1.png);
 }
